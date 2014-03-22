@@ -34,10 +34,11 @@ WSGI_APPLICATION = 'devops_challenge.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'devops',
-        'USER': 'devops',
-        'PASSWORD': 'gGCG7m6k',
-        'HOST': '',
+        'NAME': 'gcg_test',
+        'USER': 'gcg_test',
+        #'PASSWORD': 'gGCG7m6k',
+        'PASSWORD': 'abc123',
+        'HOST': 'localhost',
         'PORT': '',
     }
 }
